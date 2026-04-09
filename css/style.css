@@ -33,6 +33,7 @@ nav {
 }
 nav div {
     background-color: var(--color-riwi-opcity);
+    width: 50vw;
 
 }
 
@@ -51,15 +52,25 @@ header ol{
     
     list-style: none;
 }
-main{
+main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 aside{
-
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    width: 25vw;
+    background-color: var(--color-riwi-opcity);    
 }
 article{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+
+
 }
 li a {
     text-decoration: none;
@@ -68,7 +79,7 @@ li a {
     margin-right: 20px;
     
 }
-main{
-    display: flex;
-    justify-content: space-between;
+.mosaico1{
+
 }
+
