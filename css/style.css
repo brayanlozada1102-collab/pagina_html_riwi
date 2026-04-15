@@ -39,7 +39,7 @@ footer li {
     padding-left: 20px;
     margin-top: 5px;
 }
- header div {
+ header ul {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -76,7 +76,7 @@ nav h1 {
     color: rgb(250, 250, 250);
 }
 
-header li {
+header ul {
 
     list-style: none;
 }
