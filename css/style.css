@@ -152,6 +152,10 @@ section{
     align-items: center;    
 
 }
+aside iframe{
+    border: 0cap;
+
+}
 
 .gridfooter{
     display: grid;
