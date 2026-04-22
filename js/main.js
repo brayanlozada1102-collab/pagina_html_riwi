@@ -4,7 +4,7 @@ function showmenu() {
     if (menu[0].classList.contains("active")) {
         btn.innerText = "≡"
     } else {
-        btn.innerText = "X"
+        btn.innerText = "≡"
     }
     menu[0].classList.toggle("active")
 }
